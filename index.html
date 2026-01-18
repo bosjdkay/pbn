@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Free DNS & GitHub Pages | Hosting Gratis Tanpa Ribet</title>
+  <meta name="description" content="Landing page gratis menggunakan Free DNS (Afraid.org) dan GitHub Pages. Cocok untuk portfolio, landing page, dan website SEO basic." />
+  <meta name="robots" content="index, follow" />
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+
+    body {
+      background: radial-gradient(circle at top, #1e293b, #020617);
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    a { text-decoration: none; }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    /* HEADER */
+    header {
+      text-align: center;
+      padding: 90px 20px 70px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 20px;
+      background: linear-gradient(135deg, #6366f1, #22d3ee);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #cbd5f5;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    .cta {
+      margin-top: 35px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      margin: 10px;
+      transition: all 0.25s ease;
+    }
+
+    .btn.primary {
+      background: linear-gradient(135deg, #6366f1, #22d3ee);
+      color: #020617;
+    }
+
+    .btn.primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 40px rgba(99,102,241,0.35);
+    }
+
+    .btn.secondary {
+      border: 2px solid #6366f1;
+      color: #e5e7eb;
+    }
+
+    .btn.secondary:hover {
+      background: #6366f1;
+      color: #020617;
+    }
+
+    /* SECTION */
+    section {
+      margin-top: 80px;
+    }
+
+    h2 {
+      font-size: 2.2rem;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+
+    .card {
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(148, 163, 184, 0.15);
+      border-radius: 20px;
+      padding: 30px;
+      transition: all 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      border-color: #6366f1;
+      box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    }
+
+    .card h3 {
+      margin-bottom: 15px;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: #cbd5f5;
+      font-size: 0.95rem;
+    }
+
+    /* FOOTER */
+    footer {
+      margin-top: 120px;
+      border-top: 1px solid rgba(148,163,184,0.15);
+      padding: 40px 20px;
+      text-align: center;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Free DNS + GitHub Pages</h1>
+      <p>
+        Hosting website <strong>100% gratis</strong> tanpa server, tanpa biaya bulanan.
+        Cocok untuk landing page, portfolio, project SEO, dan testing domain.
+      </p>
+      <div class="cta">
+        <a href="#fitur" class="btn primary">Lihat Fitur</a>
+        <a href="#cara" class="btn secondary">Cara Pakai</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="fitur">
+    <div class="container">
+      <h2>Kenapa Pakai Ini?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>🚀 100% Gratis</h3>
+          <p>Tidak perlu hosting berbayar. Gunakan GitHub Pages dan FreeDNS tanpa limit bandwidth.</p>
+        </div>
+        <div class="card">
+          <h3>🔒 HTTPS Otomatis</h3>
+          <p>SSL aktif otomatis dari GitHub Pages. Aman dan dipercaya Google.</p>
+        </div>
+        <div class="card">
+          <h3>⚡ Cepat & Stabil</h3>
+          <p>Website di-host langsung oleh infrastruktur GitHub yang cepat dan global.</p>
+        </div>
+        <div class="card">
+          <h3>📈 SEO Friendly</h3>
+          <p>Struktur clean HTML, cepat, dan cocok untuk optimasi SEO dasar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="cara">
+    <div class="container">
+      <h2>Cara Menggunakan</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>1️⃣ Buat Repository</h3>
+          <p>Buat repository public di GitHub dan upload file index.html.</p>
+        </div>
+        <div class="card">
+          <h3>2️⃣ Aktifkan Pages</h3>
+          <p>Masuk ke Settings → Pages → pilih branch main.</p>
+        </div>
+        <div class="card">
+          <h3>3️⃣ Pasang Subdomain</h3>
+          <p>Gunakan CNAME dari FreeDNS ke username.github.io.</p>
+        </div>
+        <div class="card">
+          <h3>4️⃣ Website Online</h3>
+          <p>Aktifkan HTTPS dan website langsung bisa diakses publik.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 • Free DNS + GitHub Pages • Build by Deris</p>
+  </footer>
+
+</body>
+</html>
